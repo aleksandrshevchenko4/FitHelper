@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitHelper.Spina">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <x:Array x:Key="spin" Type="{x:Type x:String}">
+                <x:String>Упражнение 1</x:String>
+                <x:String>Упражнение 2</x:String>
+                <x:String>Упражнение 3</x:String>
+            </x:Array>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <StackLayout>
+        <Label Text="Список упражнений!" HorizontalOptions="Center" FontSize="Medium" BackgroundColor="LawnGreen" />
+        <ListView x:Name="spinList" ItemsSource="{StaticResource Key=phones}" ItemSelected="spinList_ItemSelected"/>
+    </StackLayout>
+</ContentPage>

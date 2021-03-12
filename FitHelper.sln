@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitHelper.Android", "FitHelper.Android\FitHelper.Android.csproj", "{FBADB0A9-C5E3-4A1D-BFE5-BEA3062D140F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitHelper", "FitHelper\FitHelper.csproj", "{DC06B1F0-BA9B-4F71-8329-2FDF968841D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBADB0A9-C5E3-4A1D-BFE5-BEA3062D140F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBADB0A9-C5E3-4A1D-BFE5-BEA3062D140F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBADB0A9-C5E3-4A1D-BFE5-BEA3062D140F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FBADB0A9-C5E3-4A1D-BFE5-BEA3062D140F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBADB0A9-C5E3-4A1D-BFE5-BEA3062D140F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBADB0A9-C5E3-4A1D-BFE5-BEA3062D140F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DC06B1F0-BA9B-4F71-8329-2FDF968841D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC06B1F0-BA9B-4F71-8329-2FDF968841D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC06B1F0-BA9B-4F71-8329-2FDF968841D0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DC06B1F0-BA9B-4F71-8329-2FDF968841D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC06B1F0-BA9B-4F71-8329-2FDF968841D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC06B1F0-BA9B-4F71-8329-2FDF968841D0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6B168EA-F9AA-4345-819C-31D94855E449}
+	EndGlobalSection
+EndGlobal
